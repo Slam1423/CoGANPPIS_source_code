@@ -8,6 +8,7 @@ git lfs clone git@github.com:Slam1423/CoGANPPIS_source_code.git
 ```
 
 ## Requirements:
+- Linux
 - python 3.6.9+
 - biopython 1.79
 - pybiolib 1.1.988
