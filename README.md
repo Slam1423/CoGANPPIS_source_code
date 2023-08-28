@@ -13,6 +13,7 @@ git lfs clone git@github.com:Slam1423/CoGANPPIS_source_code.git
 - biopython 1.79
 - pybiolib 1.1.988
 - pytorch 1.10.0
+- scikit-learn 0.24.2
 - numpy 1.19.5
 - pandas 1.1.5
 - scipy 1.5.4
