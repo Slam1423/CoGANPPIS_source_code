@@ -19,13 +19,13 @@ git lfs clone git@github.com:Slam1423/CoGANPPIS_source_code.git
 - scipy 1.5.4
 
 ## How to run
-# Step1: Feature generation.
+### Step1: Feature generation.
 
 ```bash
 python3 generate_features.py -f dset422 -d nr -n 1000
 ```
 
-# Step2: Training
+### Step2: Training
 
 ```bash
 python3 train.py
