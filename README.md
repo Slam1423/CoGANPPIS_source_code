@@ -21,6 +21,16 @@ git lfs clone git@github.com:Slam1423/CoGANPPIS_source_code.git
 ## How to run
 ### Step1: Feature generation.
 
+#### Hyperparameters:
+`-f`: The dataset name.
+usage example: `-f example`
+
+`-d`: Protein database for Blast.
+usage example: `-d nr`
+
+`-n`: Number of sequences in multiple sequence alignments. (preferably >= 1000)
+usage example: `-n 1000`
+
 ```bash
 python3 generate_features.py -f dset422 -d nr -n 1000
 ```
